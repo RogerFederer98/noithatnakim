@@ -1,0 +1,166 @@
+@media screen and (max-width: 1660px) {
+.under #top_info::before{background: url('../images/top_info_ic_md.png') left center /cover no-repeat;}
+}
+@media screen and (min-width: 751px) {
+.under .btn_u a:hover {background-position: top;color: #fff;border-color: #eb6100}
+
+.under .ovn_list dt a:hover{color: #eb6100}
+.under .bnn_0 a:hover,
+.under .ovn_list dd a:hover{opacity: 0.7;cursor: pointer;}
+
+.under .image_l.mb0{float: left;margin: 0 120px 0 0;}
+.under .image_r.mb0{float: right;margin: 0 0 0 120px;}
+#column_detail .image_c img{max-width: 800px;max-height: 600px}
+
+}
+
+@media screen and (max-width: 750px) {
+.under .section {padding: 0 0 50px;box-sizing: border-box;}
+.under .inner{padding: 0 15px}
+.under .image_r,
+.under .image_l,
+.under .image_c{float: none;display: inline-block;width: 100%;text-align: center;margin: 0 auto 20px;}
+
+.under .box_sp{display: block}
+.under .box_pc{display: none}
+
+.under p,
+.under dt,
+.under dd,
+.under td,
+.under th,
+.under li{font-size: 14px;}
+
+/* TOP INFO */
+.under #top_info {margin:0 auto;width: calc(100% - 30px);background: url('../images/top_info_bgsp.png') center /cover no-repeat;height: 300px;padding-top: 0}
+.under #top_info .inner{height: 100%;}
+.under #top_info::before{width: 0;height: calc(100vw * 17 / 75);position: absolute;top: 0;left: -15px;background: url('../images/top_info_ic_spt.png') left center /cover no-repeat;}
+.under #top_info::after{width: 0;height: calc(100vw * 17 / 75);position: absolute;bottom:0 ;left: -15px;transition: all linear 2s;content: '';background: url('../images/top_info_ic_spb.png') left center /cover no-repeat;}
+.under #top_info.active::after{width: 100vw}
+
+.under #top_info h2{font-size: 26px;display: flex;flex-direction: column;align-items: center;justify-content: center;text-align: center;height: 100%}
+.under #top_info h2 span{font-size: 26px}
+.under #top_info h2 span.org,
+.under #top_info h2 span.green{font-size: 32px}
+.under #top_info{}
+
+/* TOPIC PATH */
+.under #topic_path {margin: 15px 0 50px;}
+.under #topic_path ul {}
+.under #topic_path li {font-size: 12px;}
+
+.under h3 {margin-bottom: 25px;font-size: 24px;}
+.under h3 span.en{font-size: 36px;line-height: 1em;}
+.under h3 span.jp{}
+.under h4 {font-size: 20px;padding-top: 0}
+.under h5 {font-size: 18px;padding-left: 15px}
+.under h6 {font-size: 16px;}
+.under .big{font-size: 18px}
+.under .sm{font-size: 12px;color: #999}
+
+.under .box_txt{width: 90%;margin-bottom: 40px}
+
+/* TABLE SCROLL */
+.under .tb_scroll {overflow: scroll;margin-bottom: 10px}
+.under .tb_scroll table {width: 720px;}
+.under .txt_note {font-size: 12px;color: #999;display: block;}
+
+/* TABLE  */
+.under table.tb_block tbody tr th,
+.under table.tb_block tbody tr th + th {display: block !important;width: 100% !important;box-sizing: border-box;border: none;}
+.under table.tb_block tbody tr th.box_pc{display: none !important}
+.under table.tb_block tbody tr td{display: block !important;width: 100% !important;box-sizing: border-box;border-top: none;}
+.under table.tb_block tbody tr:first-child td:first-child{border-top: 1px solid #eb6100}
+.under table.tb_block tbody tr th {border-bottom: none;}
+.under table tr th:only-of-type {border-right: none;}
+.under table.tb_block tbody tr:last-child {margin-bottom: 0}
+.under table.tb_block tbody tr td + td {border-top: 1px solid #efeeea;}
+.under table.tb_block tbody tr th + th {border-top: 1px solid #efeeea;}
+.under table.tb_block tbody tr th:last-child {border-bottom: none}
+.under table.td_top_sp td{vertical-align: top}
+.under table.tb_block th.bdo{border-bottom-color: #fff}
+.under table th{font-size: 16px}
+
+/* FRAME 01 */
+.under .frame01{padding: 20px;margin-bottom: 50px}
+    
+    
+/*ADD MENU MOBILE*/
+.under .main-nav a{color: #000000;text-decoration: none}
+.under .item-sp2 a{color: #ffffff}
+.under .call-location a{color: #ffffff}
+.under .mail-location a{color: #ffffff}
+.under .map-location a{color: #ffffff}    
+    
+/* LIST 01 */
+.under .qa_list dl{margin-bottom: 30px}
+.under .qa_list dt span{top:3px;}
+.under .qa_list dt{font-size: 16px;min-height: 50px}
+
+
+/* STEP LIST */
+.under .step_list dl{margin-bottom: 55px;padding-bottom: 35px;}
+.under .step_list dl::before{border-width: 30px 30px 0 30px;left: calc(50% - 30px);}
+
+/* ANCHOR LIST */
+.under .list_anchor ul{flex-direction: column;align-items: center;}
+.under .list_anchor ul li{margin:0 0 15px;width: 290px;}
+.under .list_anchor ul li:last-child{margin-bottom: 0}
+.under .list_anchor.list_4btn{width: 100%;}
+
+/* FLEX 3 COL */
+.under .flex_3col{flex-direction: column}
+.under .flex_col_item{width: 100%;margin-bottom: 40px}
+.under .flex_col_item:last-child{margin-bottom: 0}
+
+/* QA LIST */
+.under .qa_list dt .txt{font-size: 16px;line-height: 1.5em}
+.under .qa_list dt .big{font-size: 14px;top: -15px}
+.under .qa_list dt .big span{font-size: 24px;}
+
+/* BANNER */
+.under .bnn_list{flex-direction: column;align-items: center;}
+.under .bnn_list .bnn_2{margin-bottom: 30px;}
+.under .bnn_0{height: 150px;width: 100%;}
+.under .bnn_0 a{font-size: 22px}
+
+.under.ovn_ct .next_prev_btn ul{position: relative;top: inherit;display: flex;justify-content: center;flex-direction: column;align-items: center;}
+.under.ovn_ct .next_prev_btn ul li.prevPage,
+.under.ovn_ct .next_prev_btn ul li.nextPage,
+.under.ovn_ct .next_prev_btn ul li{position: relative;top: inherit;left: inherit;right: inherit;margin-bottom: 15px;width: 290px;}
+.under.ovn_ct #content .next_prev_btn ul li.btn{margin:0 auto 15px;width: 290px}
+
+#column_detail .image_c img{max-width: 100%;max-height: calc((100vw - 30px) * 3 / 4)}
+
+.under .ovn_list dl{flex-direction: column-reverse;justify-content: center;align-items: center}
+.under .ovn_list dt{width: 100%;margin-top: 15px;}
+.under .ovn_list dt a{font-size: 16px;}
+
+.under #footer{margin-top: 50px;}
+.under table.mailform th,
+.under table.tb_block th{border-bottom: 1px solid #eb6100}
+
+}
+
+@media screen and (max-width: 640px) {
+
+}
+
+@media screen and (max-width: 560px) {
+	.under .ovn_list dd{width: 100%;height: calc((100vw - 30px) * 2 / 3)}
+
+}
+
+@media screen and (max-width: 480px) {
+
+}
+
+
+@media screen and (max-width: 420px) {
+}
+
+
+@media screen and (max-width: 360px) {
+	.under #top_info h2{font-size: 24px;}
+	.under .bnn_0 a{font-size: 17px}
+}
